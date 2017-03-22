@@ -4,7 +4,7 @@
   "description": "First node.js + express project template",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start pm2.config.js"
+    "start": "pm2 start pm2.config.js && webpack -d -w"
   },
   "repository": {
     "type": "git",

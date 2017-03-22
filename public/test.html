@@ -7,6 +7,7 @@
 	<title>React</title>
 	<script>
 		// server-rendering 시 기본 파라미터로 변경되니 수정하지 마세요.
+		// Don't touch this. It will replace default parameter by server-side rendering
 		window.param = {}
 	</script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -14,6 +15,8 @@
 <body>
 	<div id="root" class="root">{{root}}</div>
 	<script src="js/react.js"></script>
-	<script src="js/{{api}}.js"></script>
+
+	<!-- jsx 밑에 있는 view 이름으로 변경하면 로컬 테스트가 가능합니다. -->
+	<script src="js/index.js"></script>
 </body>
 </html>
